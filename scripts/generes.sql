@@ -1,4 +1,4 @@
-use redbook;
+-- use redbook;
 
 create table generes (
     genere_id integer primary key,
@@ -7,7 +7,7 @@ create table generes (
     book_id integer references generes(book_id));
    
 
-drop table generes;
+-- drop table generes;
 
 insert into GENERES(TIPE, CLIENT_ID, BOOK_ID, GENERE_ID) VALUES ('ROMANTIC', null, null, 41);
 insert into GENERES(TIPE, CLIENT_ID, BOOK_ID, GENERE_ID) VALUES ('FANTASY', null, null, 42);
@@ -20,7 +20,7 @@ insert into GENERES(TIPE, CLIENT_ID, BOOK_ID, GENERE_ID) VALUES('HISTORICAN', nu
 insert into GENERES(TIPE, CLIENT_ID, BOOK_ID, GENERE_ID) VALUES('NOVEL', null, null, 49);
 insert into GENERES(TIPE,CLIENT_ID, BOOK_ID, GENERE_ID) VALUES('NOVEL', null, null, 50);
 
-commit;
+-- commit;
 
 
 -- many to one generes e books;

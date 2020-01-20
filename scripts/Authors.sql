@@ -1,4 +1,4 @@
-SELECT * FROM redbook.authors;
+-- SELECT * FROM redbook.authors;
 
 use Redbook;
 create table authors (
@@ -41,4 +41,4 @@ values (19, 'Alessandro', 'Manzoni', 'IT', null, null);
 insert into authors(author_id, first_name, last_name, nationality, book_id, client_id)
 values (20, 'Dante', 'Alighieri', 'IT', null, null);
 
-commit;
+-- commit;
